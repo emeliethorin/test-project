@@ -7,3 +7,11 @@ body {
   p {
     color: black;
   }
+
+  #second-paragraph {
+    color:brown;
+  }
+
+  .dog-info, .hobbies{
+    color:blue;
+  }
