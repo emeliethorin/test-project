@@ -7,9 +7,9 @@ body {
     font-weight: 200;
     font-style: italic;
     text-align: center;
-    background-color: lightblue;
+    background-color: #0d1523;
   }
-  
+
   h4 {
     color: darkcyan;
     font-size: 26px;
@@ -18,7 +18,7 @@ body {
 
   p {
     color: black;
-    color: grey;
+    color: white;
   }
 
   #work-paragraph {
@@ -26,5 +26,27 @@ body {
   }
 
   .dog-info, .hobbies{
-    color:blue;
+        color:white;
+        background: rgb(158, 12, 158, 0.3);
   }
+
+  body {
+        background-image:url(../images/Torrevieja.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background: url(../images/Torrevieja.jpg), no-repeat, cover, center, fixed;
+        height: 200vh;
+  }
+
+  img {
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    border: 5px solid red;
+    border-top: 5px solid green;
+    border-radius: 6px 10px 6px 20px;
+    box-shadow: 10px 10px 20px white;
+  }
+  
